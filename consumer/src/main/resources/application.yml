@@ -1,0 +1,9 @@
+server:
+  port: 9092 #服务端口
+spring:
+  application:
+    name: consumer  #服务名称
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
